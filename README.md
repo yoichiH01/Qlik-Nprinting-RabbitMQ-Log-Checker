@@ -10,7 +10,7 @@
 # Instruction
 1. Download "NP_RabbitMQLog-Checker-v1.0.qvw" onto your Windows Machine where installed QlikView Desktop.
 2. Collect Qlik Nprinting RabbitMQ logs from Nprinting Engine machine and copy them into a folder where is reachable from Qlikiew Desktop
-   Note: RabbitMQ Log file name is typically rabbit@<MachineName>.log (only one file)
+   Note: RabbitMQ Log file name is typically rabbit@[MachineName].log (only one file)
 3. Open "NP_RabbitMQLog-Checker-v1.0.qvw" using QlikView Desktop.
 4. At "Qlik Nprinting RabbitMQ Log Path" section on Configuration Sheet, Enter file path where you stored RabbitMQ log in No2.
   By default the file path is set to "C:\yheTemp\Nprinting\RabbitMQ\Log\rabbit@QlikServer1.log", please change it to fit to your environment
